@@ -7,23 +7,33 @@ parser combinator library.
 
 Get dependencies:
 
-	mix deps.get
+  mix deps.get
 
 Using iex:
 
-	iex -S mix
+  iex -S mix
 
-	> BenchmarkParsing.load_pricedb
+  > BenchmarkParsing.load_pricedb
 
 Building an "executable":
 
-	mix escript.build
+  mix escript.build
 
-	./benchmark_parsing
+Running the "executable" (*nix):
 
-To time it (on a *nix OS):
+  ./benchmark_parsing
 
-	time ./benchmark_parsing
+Running the "executable" (Windows):
+
+  escript ./benchmark_parsing
+
+To time it (*nix):
+
+  time ./benchmark_parsing
+
+To time it (Windows PowerShell):
+
+  Measure-Command {escript benchmark_parsing}
 
 
 **TODO: Add description**

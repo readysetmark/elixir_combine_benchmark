@@ -1,2 +1,4 @@
-%{"combine": {:hex, :combine, "0.7.0"},
-  "decimal": {:hex, :decimal, "1.1.1"}}
+%{
+  "combine": {:hex, :combine, "0.7.0", "2ac6ae852a9835fe8189af18121cddd5bed2677f5df706dc0d208af668ab845d", [:mix], [], "hexpm"},
+  "decimal": {:hex, :decimal, "1.1.1", "a8ff5b673105e6cdaca96f799aeefc6f07142881b616c65db16e14e556b16e76", [:mix], [], "hexpm"},
+}
