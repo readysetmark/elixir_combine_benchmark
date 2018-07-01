@@ -1,0 +1,4 @@
+%{
+  "decimal": {:hex, :decimal, "1.1.1", "a8ff5b673105e6cdaca96f799aeefc6f07142881b616c65db16e14e556b16e76", [:mix], [], "hexpm"},
+  "nimble_parsec": {:hex, :nimble_parsec, "0.3.2", "6d3373c04fdef6c880bc6cd0ea6cfe8f1e9b962a8baab7063ef193aede1b5d54", [:mix], [], "hexpm"},
+}
